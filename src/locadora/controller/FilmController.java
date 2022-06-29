@@ -11,7 +11,7 @@ import locadora.model.Film;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class FilmController {
     

@@ -12,7 +12,7 @@ import locadora.dao.ExceptionDAO;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ScreenItem extends javax.swing.JFrame {
 

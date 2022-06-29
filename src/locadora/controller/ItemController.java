@@ -10,7 +10,7 @@ import locadora.model.Item;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ItemController {
     

@@ -7,7 +7,7 @@ package locadora.dao;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ExceptionDAO extends Exception{
 

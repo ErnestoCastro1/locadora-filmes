@@ -7,7 +7,7 @@ package locadora.views;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class TelaPrincipal extends javax.swing.JFrame {
 
@@ -25,15 +25,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jPanelImage = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu2 = new javax.swing.JMenu();
+        Filmes = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        Itens = new javax.swing.JMenuItem();
         jMenuCadastro = new javax.swing.JMenu();
         jScreenFilm = new javax.swing.JMenuItem();
         jMenuActor = new javax.swing.JMenuItem();
         jMenuItemClient = new javax.swing.JMenuItem();
         jMenuItemItem = new javax.swing.JMenuItem();
-        jMenu1 = new javax.swing.JMenu();
+        sair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -79,17 +79,21 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap(81, Short.MAX_VALUE))
         );
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/icon.png"))); // NOI18N
-        jMenu2.setText("Locação");
-        jMenu2.setFont(new java.awt.Font("MV Boli", 0, 36)); // NOI18N
+        Filmes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/icon.png"))); // NOI18N
+        Filmes.setText("Locação");
+        Filmes.setFont(new java.awt.Font("MV Boli", 0, 36)); // NOI18N
 
-        jMenuItem1.setText("jMenuItem1");
-        jMenu2.add(jMenuItem1);
+        jMenuItem1.setFont(new java.awt.Font("MV Boli", 0, 24)); // NOI18N
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/seta.png"))); // NOI18N
+        jMenuItem1.setText("Filmes");
+        Filmes.add(jMenuItem1);
 
-        jMenuItem2.setText("jMenuItem2");
-        jMenu2.add(jMenuItem2);
+        Itens.setFont(new java.awt.Font("MV Boli", 0, 24)); // NOI18N
+        Itens.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/seta.png"))); // NOI18N
+        Itens.setText("Itens");
+        Filmes.add(Itens);
 
-        jMenuBar1.add(jMenu2);
+        jMenuBar1.add(Filmes);
 
         jMenuCadastro.setText("Cadastro");
         jMenuCadastro.setFont(new java.awt.Font("MV Boli", 0, 36)); // NOI18N
@@ -138,8 +142,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenuCadastro);
 
-        jMenu1.setText("jMenu1");
-        jMenuBar1.add(jMenu1);
+        sair.setText("Sair");
+        sair.setFont(new java.awt.Font("MV Boli", 0, 24)); // NOI18N
+        sair.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sairPrograma(evt);
+            }
+        });
+        jMenuBar1.add(sair);
 
         setJMenuBar(jMenuBar1);
 
@@ -196,6 +206,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
        telaCadastroItem.setVisible(true);
     }//GEN-LAST:event_abrir_telaItem
 
+    private void sairPrograma(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairPrograma
+       System.exit(0);
+    }//GEN-LAST:event_sairPrograma
+
     
     /**
      * @param args the command line arguments
@@ -233,17 +247,17 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu Filmes;
+    private javax.swing.JMenuItem Itens;
     private javax.swing.JMenuItem jMenuActor;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu jMenuCadastro;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItemClient;
     private javax.swing.JMenuItem jMenuItemItem;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanelImage;
     private javax.swing.JMenuItem jScreenFilm;
+    private javax.swing.JMenu sair;
     // End of variables declaration//GEN-END:variables
 }

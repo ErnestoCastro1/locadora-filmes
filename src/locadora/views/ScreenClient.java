@@ -15,7 +15,7 @@ import locadora.dao.ExceptionDAO;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ScreenClient extends javax.swing.JFrame {
     private Integer codClient = 0;

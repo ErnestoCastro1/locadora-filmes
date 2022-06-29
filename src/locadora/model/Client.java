@@ -13,7 +13,7 @@ import locadora.dao.ExceptionDAO;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 
 public class Client {

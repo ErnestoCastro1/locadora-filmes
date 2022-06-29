@@ -14,7 +14,7 @@ import locadora.dao.ExceptionDAO;
 
 /**
  *
- * @author Ernesto Castro
+ * @author Ernesto.Castro
  */
 public class ScreenActor extends javax.swing.JFrame {
     

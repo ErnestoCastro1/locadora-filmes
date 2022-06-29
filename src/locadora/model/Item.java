@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class Item {
     

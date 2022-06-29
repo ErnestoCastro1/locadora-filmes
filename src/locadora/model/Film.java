@@ -12,7 +12,7 @@ import locadora.dao.FilmDAO;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class Film {
     private Integer codFilm;

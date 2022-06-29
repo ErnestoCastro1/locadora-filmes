@@ -15,7 +15,7 @@ import locadora.model.Client;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ClientDAO {
     

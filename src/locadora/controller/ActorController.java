@@ -11,7 +11,7 @@ import locadora.model.Actor;
 
 /**
  *
- * @author Aluno
+ * @author Ernesto.Castro
  */
 public class ActorController {
     
